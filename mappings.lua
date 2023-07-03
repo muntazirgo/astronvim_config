@@ -42,6 +42,9 @@ return {
 
     -- Visal-Block Mode
     ["cv"] = { "<C-v>" },
+
+    -- Code_runner
+    ["<leader>r"] = { ":w<CR>:RunFile<CR>", desc = "Save & Run" },
   },
   t = {
     -- setting a mapping to false will disable it
